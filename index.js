@@ -8,11 +8,14 @@ const sha256 = (bytes) =>
       .update(bytes)
       .digest()
 
+const sha256d = (bytes) =>
+   sha256(sha256(bytes))
+
 // https://litecoin.info/index.php/Scrypt
 const scrypt = (bytes) =>
    scryptSync(bytes, bytes, 32, { N: 1024, r: 1, p: 1 })
 
 module.exports = {
-   sha256,
+   sha256: sha256d,
    scrypt
 }
