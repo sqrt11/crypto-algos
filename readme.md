@@ -1,2 +1,2 @@
 # crypto-algos
-hashing algorithms for crypto miners
+Hashing algorithms for crypto miners. This repo is an abstraction for [crypto-miner](https://github.com/Vikasg7/crypto-miner) and [stratum-miner](https://github.com/Vikasg7/stratum-miner).
