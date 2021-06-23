@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "multi-hashing": "github:zone117x/node-multi-hashing"
+  }
 }
