@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "multi-hashing": "github:zone117x/node-multi-hashing"
+    "multi-hashing": "github:Vikasg7/node-multi-hashing"
   }
 }
